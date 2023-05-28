@@ -35,47 +35,56 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/utsobanerjee/result-summary-frontendmentor)
-- Live Site URL: [Add live site URL here](https://utso-result.vercel.app/)
+- Solution URL: [Github Repo link](https://github.com/utsobanerjee/result-summary-frontendmentor)
+- Live Site URL: [Live site hosted by vercel](https://utso-result.vercel.app/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+- First Major learning through from the project was basics of how to use and navigate through figma . Both of the articles provided by Frontend Mentor was really great with good interactive lessons .
 
-To see how you can add code snippets, see below:
+I used figma extensively to get the desktop design done . I haven't done the mobile view now . Will do it later .
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+- I learned how to use CSS Gradient property . Read about all the three types of Gradient property .
+
+- Learned how to make a circle shaped div by manipulating its border radious property 
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+
+  .circle{
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- Learned how to  the hsla metric of color property . In the summary section to get the the background color of each subject close to the design , had to experiment with changing the 'alpha' value of property .
+
+```css
+
+  .reaction{
+    background-color: hsla(0,100%,67%,0.1);
+    border-radius: 10px;
+}
+
+```
+
 
 ### Continued development
 
