@@ -1,0 +1,139 @@
+*{
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex-container {
+    display: flex;
+}
+.report-card-container {
+    display: flex;
+    width: 736px;
+    height: 512px;
+    margin: 284px 275px;
+}
+.report-card-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(hsl(252,100%,67%),hsl(241,81%,54%));
+    border-radius: 20px;
+    width: 368px;
+    justify-content: space-around;
+    background-color: white;
+}
+.circle{
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.texts p{
+    text-align: center;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 260px;
+    height: 134px;
+    justify-content: space-around;
+}
+
+.result{
+    font-size: 24px;
+    font-weight: 700;
+    color: #CAC9FF;
+    margin-top: 20px;
+}
+.circle-top{
+    font-size: 60px;
+    color: hsl(0,0%,100%);
+    font-weight: 800;
+}
+.circle-bottom{
+    font-size: 18px;
+    color: #CAC9FF;
+    font-weight: 500;
+}
+.first-text{
+    font-size: 32px;
+    font-weight: 700;
+    color: hsl(0,0%,100%);
+}
+.second-text {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: #CAC9FF;
+}
+.report-card-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 0px 30px 60px 0px hsla(224, 82%, 58%, 0.5);
+
+    
+}
+.summary{
+    display: flex;
+    justify-content: flex-start;
+    width: 288px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 288px;
+    height: 272px;
+
+}
+.content div{
+    display: flex;
+    justify-content: space-between;
+    height: 52px;
+    align-items: center;
+    padding: 0px 5px;
+}
+.reaction{
+    background-color: hsla(0,100%,67%,0.1);
+    border-radius: 10px;
+}
+.memory{
+    background-color: hsla(39, 100%, 56%, 0.1);
+    border-radius: 10px;
+}
+.verbal{
+    background-color: hsla(166,100%,37%,0.1);
+    border-radius: 10px;
+}
+.visual{
+    background-color: hsla(234,85%,45%,0.1);
+    border-radius: 10px;
+}
+.marks{
+    color: black;
+}
+.total{
+    color: hsla(211, 12%, 48%, 1);
+}
+button{
+    width: 288px;
+    height: 56px;
+    border-radius: 75px;
+    text-align: center;
+    background-color:#303B59 ;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
