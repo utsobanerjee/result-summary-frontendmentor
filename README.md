@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo link](https://github.com/utsobanerjee/result-summary-frontendmentor)
+- Solution URL: [Frontendmentor solution page link](https://www.frontendmentor.io/solutions/result-summary-component-desktop-version-using-css-flexbox-L2ZHMoPCPx)
 - Live Site URL: [Live site hosted by vercel](https://utso-result.vercel.app/)
 
 ## My process
